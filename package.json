@@ -1,0 +1,21 @@
+{
+  "name": "hal_hack_turin",
+  "version": "1.0.0",
+  "description": "Ethereum cash register",
+  "main": "index.js",
+  "author": "HAL Team",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "eth-ens-namehash": "^2.0.8",
+    "ethers": "^4.0.47",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
