@@ -30,7 +30,7 @@ There are 3 phases:
 2) You setup this script on your server (or on a serverless environment). Requirement: the script needs to be reachable by a webhook (HTTP Post requests). Please also check that the *invoices* folder has writing permission enabled (we will save there the invoices!)
 3) You open your HAL.xyz account and create a "Watch an event" trigger
 4) [IF] You insert the 0x6b175474e89094c44da98b954eedeac495271d0f address (DAI). You watch the *Transfer* event and you put in the *dst* variable your Ethereum address
-5) [THEN] You select webhook and insert the URL of where you uploded your script (e.g. https://mydomain.com/scriptname.js). Click "Create" and you're done!
+5) [THEN] You select webhook and insert the URL of where you uploded your script (e.g. https://mydomain.com/hook). Click "Create" and you're done!
 
 ### Customer Setup
 
