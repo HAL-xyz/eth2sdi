@@ -26,8 +26,8 @@ There are 3 phases:
 
 ### Merchant Setup
 
-1) You clone this repo and setup your business' global variables in the X file
-2) You setup this script on your server (or on a serverless environment). Requirement: the script needs to be reachable by a webhook (HTTP Post requets). Please also check that the *invoice* folder has writing permission enabled (we will save there the invoices!)
+1) You clone this repo and setup your business' global variables in the const/merchant.js file
+2) You setup this script on your server (or on a serverless environment). Requirement: the script needs to be reachable by a webhook (HTTP Post requests). Please also check that the *invoices* folder has writing permission enabled (we will save there the invoices!)
 3) You open your HAL.xyz account and create a "Watch an event" trigger
 4) [IF] You insert the 0x6b175474e89094c44da98b954eedeac495271d0f address (DAI). You watch the *Transfer* event and you put in the *dst* variable your Ethereum address
 5) [THEN] You select webhook and insert the URL of where you uploded your script (e.g. https://mydomain.com/scriptname.js). Click "Create" and you're done!
@@ -48,6 +48,6 @@ There are 3 phases:
 
 ### Let's buy (and sell)!
 
-1) As a Customer send an amount of DAI to the address of the Merchant
-2) When the transaction is confirmed, HAL.xyz sends the data to our script. The script creates the invoice in the XML-SDI format and save it in the *invoice* folder. The invoice reference is created randomly (e.g. "a86a5da2d"). So if your business tax code is "08899321321", you will find a "IT08899321321_a86a5da2d.xml" file
+1) As a Customer... send an amount of DAI to the address of the Merchant
+2) When the transaction is confirmed, HAL.xyz sends the data to our script. The script creates the invoice in the XML-SDI format and save it in the *invoices* folder. The invoice reference is created randomly (e.g. "a86a5da2d"). So if your business tax code is "08899321321", you will find a "IT08899321321_a86a5da2d.xml" file
 3) Dear SME, you're tax compliant and ready to sell... just focus on bringing your business on Ethereum and increase your revenues! ;)
