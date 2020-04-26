@@ -1,4 +1,5 @@
 # eth2sdi - An Ethereum cash register for Italian SMEs
+[![ETH Turin 2020](https://img.shields.io/badge/%CE%9E-ETH%20Turin%202020-F64060.svg)](https://ethturin.com)
 
 A tool to enable Italian SMEs, local businesses and communities to **receive payments on Ethereum and automatically make invoices compliant with the XML-SDI Italian mandatory format** (Italian companies need to send these "SDI" XMLs files to the Tax Authority. Paper invoices are no longer valid).
 
